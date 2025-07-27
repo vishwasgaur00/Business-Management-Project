@@ -4,8 +4,6 @@ BizzFlow is a modern, role-based business management system built using React an
 It features a unified login system for Owners and Employees, each with their own personalized dashboard and controls.
 
 ---
-## LIVE DEMO
-https://business-management-model.vercel.app/login
 
 ## 🚀 Features
 
