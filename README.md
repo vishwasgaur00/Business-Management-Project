@@ -40,7 +40,7 @@ Use the following credentials on the login page:
 ### 📦 Installation
 
 ```bash
-git clone 
+git clone https://github.com/vishwasgaur00/Business-Management-Project.git
 cd business-management-system
 npm install
 npm run dev
