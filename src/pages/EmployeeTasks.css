@@ -1,0 +1,37 @@
+/* ======= EmployeeTasks.css ======= */
+.tasks-page {
+  padding: 30px;
+  margin-top: 70px;
+  margin-left: 220px;
+}
+
+.tasks-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tasks-chart {
+  flex: 1;
+  min-width: 320px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tasks-list {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tasks-list ul li {
+  font-size: 15px;
+  margin-bottom: 10px;
+}

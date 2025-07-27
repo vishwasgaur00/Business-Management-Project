@@ -1,0 +1,43 @@
+.alerts-container {
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+}
+
+.alerts-table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.alerts-table th,
+.alerts-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.severity.warning {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.severity.critical {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.severity.info {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 6px 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}

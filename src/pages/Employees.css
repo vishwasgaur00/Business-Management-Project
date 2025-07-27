@@ -1,0 +1,61 @@
+.employees-page {
+  background-color: #f7f9fc;
+  padding: 30px;
+  min-height: calc(100vh - 70px); /* Adjust for navbar */
+}
+
+.employees-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.employees-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.employees-table th,
+.employees-table td {
+  padding: 16px 20px;
+  text-align: left;
+}
+
+.employees-table thead {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+}
+
+.employees-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.employees-table tbody tr:hover {
+  background-color: #f1f7ff;
+}
+
+.employees-table tbody td {
+  color: #333;
+}
+
+/* Optional: color coding based on status */
+.employees-table tbody td:last-child {
+  font-weight: 500;
+}
+
+.employees-table tbody td:last-child::before {
+  content: \"\\2022 \";
+  color: green;
+  margin-right: 6px;
+}
+
+.employees-table tbody tr td:last-child:contains('On Leave')::before {
+  color: orange;
+}

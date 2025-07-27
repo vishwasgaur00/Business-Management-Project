@@ -1,0 +1,56 @@
+.employee-dashboard-content {
+  padding: 50px;
+  /* margin: 50px; */
+  background-color: #f5f7fa;
+  max-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dashboard-heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Force 3 cards in row 1, 2 in row 2 */
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: auto;
+}
+
+/* Make the last two cards start from next row */
+.employee-card:nth-child(4) {
+  grid-column: 1 / 2;
+}
+.employee-card:nth-child(5) {
+  grid-column: 2 / 3;
+}
+
+.employee-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #007bff;
+  transition: transform 0.2s ease;
+}
+
+.employee-card:hover {
+  transform: translateY(-3px);
+}
+
+.employee-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.employee-card p {
+  font-size: 14px;
+  color: #666;
+}

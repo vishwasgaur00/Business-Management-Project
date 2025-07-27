@@ -1,0 +1,51 @@
+.settings-page {
+  background-color: #f7f9fc;
+  padding: 30px;
+  min-height: calc(100vh - 70px); /* Adjust for navbar */
+  font-family: sans-serif;
+}
+
+.settings-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.settings-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.settings-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.settings-section label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.settings-section input[type="text"],
+.settings-section input[type="email"],
+.settings-section input[type="password"],
+.settings-section select {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.settings-section input[type="checkbox"] {
+  margin-right: 8px;
+}

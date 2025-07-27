@@ -1,0 +1,81 @@
+/* won't change login ui for some time now (good enough) */
+.login-container {
+  max-height: 100vh;                         /* Exactly viewport height */
+  background-color: #f5f7fa;             /* Full-screen background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;               /* Vertically center the login box */
+  font-family: 'Segoe UI', sans-serif;
+  /* padding: 20px;                         For small spacing */
+  box-sizing: border-box;
+  overflow: hidden;                      /* Prevent scrolling */
+}
+
+.login-header {
+  font-size: 28px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.login-header span {
+  color: #007bff;
+}
+
+.login-box {
+  background: #f0f0f0;
+  padding: 40px 30px;
+  margin-bottom: 120px;
+  border-radius: 18px;
+  box-shadow: 0 8px 8 px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: -13px;
+  font-weight: 600;
+  color: #333;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.login-input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login-button {
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #0a66ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0047cc;
+}

@@ -1,0 +1,39 @@
+.employee-settings {
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+
+.employee-settings h2 {
+  margin-bottom: 16px;
+  color: #2c3e50;
+}
+
+.employee-settings form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.employee-settings label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.employee-settings select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.employee-settings button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

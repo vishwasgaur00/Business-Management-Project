@@ -1,0 +1,12 @@
+.revenue-container {
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+}
+
+.chart-container {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}

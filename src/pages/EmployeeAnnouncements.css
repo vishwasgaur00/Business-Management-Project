@@ -1,0 +1,18 @@
+.announcements-page {
+  padding: 30px;
+  margin-top: 70px;
+  margin-left: 220px;
+  background-color: #f9fafc;
+}
+
+.announcement-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  list-style-type: disc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.6;
+}

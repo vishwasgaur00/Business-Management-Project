@@ -1,0 +1,17 @@
+/* ======= EmployeeShiftInfo.css ======= */
+.shift-page {
+  padding: 30px;
+  margin-top: 70px;
+  margin-left: 220px;
+}
+
+.shift-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 16px;
+}
